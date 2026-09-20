@@ -9,9 +9,7 @@ A user management dashboard built with **HTML, CSS, and JavaScript**, created to
 
 ## 🚀 Live Demo
 
-🔗 **[View Live Demo](#)**
-
-> The live demo link will be added after GitHub Pages is configured.
+🔗 **[View Live Demo](https://sajadavazpwwr.github.io/user-management-dashboard/)**
 
 ---
 
@@ -97,13 +95,18 @@ JSONPlaceholder is a free fake REST API designed for testing, prototyping, and l
 user-management-dashboard/
 │
 ├── index.html
+├── README.md
 │
 └── src/
     ├── css/
     │   └── style.css
     │
-    └── js/
-        └── app.js
+    ├── js/
+    │   └── app.js
+    │
+    └── Screenshot/
+        ├── preview.png
+        └── previewAdd.png
 ```
 
 ---
@@ -146,9 +149,7 @@ Frontend Developer focused on JavaScript and modern web development.
 
 ## 🚀 دمو آنلاین
 
-🔗 **[مشاهده دمو آنلاین](#)**
-
-> لینک دمو بعد از فعال‌سازی GitHub Pages اضافه خواهد شد.
+🔗 **[مشاهده دمو آنلاین](https://sajadavazpwwr.github.io/user-management-dashboard/)**
 
 ---
 
@@ -235,13 +236,18 @@ JSONPlaceholder یک API آزمایشی رایگان است که برای یاد
 user-management-dashboard/
 │
 ├── index.html
+├── README.md
 │
 └── src/
     ├── css/
     │   └── style.css
     │
-    └── js/
-        └── app.js
+    ├── js/
+    │   └── app.js
+    │
+    └── Screenshot/
+        ├── preview.png
+        └── previewAdd.png
 ```
 
 ---
