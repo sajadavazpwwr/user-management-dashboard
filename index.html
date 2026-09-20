@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user-management-dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>User Management </h1>
+            <div class="header-butm">
+                <div class="div-serch">
+                    <label for="serch"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="text" name="serch" id="serch" placeholder=" Search users...">
+                </div>
+                <div class="div-addUser">
+                    <button class="but user">+ Add User</button>
+                </div>
+            </div>
+        </header>
+        <section class="addUser">
+            <div class="divAddNewUser displaynone">
+                <div class="divInpNewUser">
+                    <input type="text" class="addNewName" placeholder="Name User...">
+                    <input type="text" class="addNewEmail" placeholder="Email User...">
+                    <input type="text" class="addNewPhone" placeholder="Phone User...">
+                </div>
+                <button class="cancelNewUser btnHover">Cancel</button>
+                <button class="NewUserDone btnHover">Add User</button>
+            </div>
+        </section>
+        <section class="section-user">
+            <div class="userFond displaynone">
+                <p>User Has Not Found</p>
+            </div>
+            <div class="FailedLoad displaynone">
+                <p class="responseMessage">Failed to load users. Please try again</p>
+            </div>
+            <div class="updateUsers displaynone">
+                <div class="divInpUpdate ">
+                    <input type="text" class="updateName" placeholder="Name User...">
+                    <input type="text" class="updateEmail" placeholder="Email User...">
+                    <input type="number" class="updatePhone" placeholder="Phone User...">
+                </div>
+                <button class="cancelUpdate btnHover">Cancel</button>
+                <button class="UpdateDone btnHover">Done</button>
+            </div>
+            <article class="articleTemplate">
+
+                <!-- <article class="user-template">
+                    <div class="info">
+                        <p><i class="fa-solid fa-user"></i> Leanne Graham </p>
+                        <p>Email: Sincere@april.biz</p>
+                        <p> Phone: 1-770-736-8031</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn Edit">Edit</button>
+                        <button class="btn Delete">Delete</button>
+                    </div>
+                </article>
+                <article class="user-template">
+                    <div class="info">
+                        <p><i class="fa-solid fa-user"></i> Leanne Graham </p>
+                        <p>Email: Sincere@april.biz</p>
+                        <p> Phone: 1-770-736-8031</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn Edit">Edit</button>
+                        <button class="btn Delete">Delete</button>
+                    </div>
+                </article>
+                <article class="user-template">
+                    <div class="info">
+                        <p><i class="fa-solid fa-user"></i> Leanne Graham </p>
+                        <p>Email: Sincere@april.biz</p>
+                        <p> Phone: 1-770-736-8031</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn Edit">Edit</button>
+                        <button class="btn Delete">Delete</button>
+                    </div>
+                </article>
+                <article class="user-template">
+                    <div class="info">
+                        <p><i class="fa-solid fa-user"></i> Leanne Graham </p>
+                        <p>Email: Sincere@april.biz</p>
+                        <p> Phone: 1-770-736-8031</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="btn Edit">Edit</button>
+                        <button class="btn Delete">Delete</button>
+                    </div>
+                </article> -->
+            </article>
+
+
+        </section>
+    </main>
+
+<script type="module" src="./src/js/app.js"></script></body>
+
+</html>

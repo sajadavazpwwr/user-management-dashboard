@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+button {
+  cursor: pointer;
+}
+.header-butm {
+  display: flex;
+  justify-content: space-between;
+}
+#serch {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.but {
+  background-color: #636363;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s linear;
+}
+.but:hover {
+  background-color: #2563eb;
+}
+/* section-user */
+.articleTemplate {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.user-template {
+  background-color: #1e293b;
+  padding: 10px;
+  margin: 5px 5px;
+  width: 45%;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid #334155;
+}
+.info p {
+  line-height: 35px;
+  text-decoration: underline;
+  direction: rtl;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 40%;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s linear;
+}
+.btn:hover {
+  background-color: #2563eb;
+}
+.btnHover:hover {
+  background-color: #2563eb;
+}
+.Edit {
+  background-color: #22c55e;
+}
+
+.Delete {
+  background-color: #ef4444;
+}
+
+/* userFond */
+.userFond {
+  background-color: #22c55e;
+  width: 60%;
+  color: #1e293b;
+  font-size: 200%;
+  text-align: center;
+  position: absolute;
+  left: 20%;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+.displaynone {
+  display: none;
+}
+.displayblock {
+  display: block;
+}
+/* FailedLoad */
+.FailedLoad{
+  width: 100%;
+  text-align: center;
+}
+.FailedLoad p {
+  font-size: 200%;
+  background-color: #1e293b;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* div Update User */
+
+.updateUsers {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  position: fixed;
+  left: 25%;
+  top: 15%;
+  background-color: #1e293b;
+  border-radius: 5px;
+  border: 5px solid #334155;
+  padding: 10px;
+  z-index: 1;
+}
+
+.divInpUpdate {
+  display: flex;
+  flex-direction: column;
+}
+.updateName,
+.updateEmail,
+.updatePhone {
+  width: 90%;
+  margin: 5px auto;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.UpdateDone {
+  background-color: #22c55e;
+  border: 5px solid #334155;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40%;
+  margin: 5px auto;
+  transition: all 0.5s linear;
+}
+.cancelUpdate {
+  background-color: #ef4444;
+  border: 5px solid #334155;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40%;
+  margin: 5px auto;
+  transition: all 0.5s linear;
+}
+/* AddNewUser */
+
+.divAddNewUser {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #1e293b;
+  border-radius: 5px;
+  border: 5px solid #334155;
+  padding: 10px;
+}
+.divInpNewUser {
+  display: flex;
+  flex-direction: column;
+}
+.addNewName,
+.addNewEmail,
+.addNewPhone {
+  width: 90%;
+  margin: 5px auto;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.cancelNewUser {
+  background-color: #ef4444;
+  border: 5px solid #334155;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40%;
+  margin: 5px auto;
+  transition: all 0.5s linear;
+}
+.NewUserDone {
+  background-color: #22c55e;
+  border: 5px solid #334155;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40%;
+  margin: 5px auto;
+  transition: all 0.5s linear;
+}
+/* closeMessage */
+.closeMessage{
+  background-color: #ef4444;
+  color: #f8fafc;
+  border:none;
+  border-radius: 9999999999999px;
+  padding: 3px;
+  margin: 10px auto;
+}
