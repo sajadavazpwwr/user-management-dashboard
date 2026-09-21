@@ -99,7 +99,8 @@ user-management-dashboard/
 │
 └── src/
     ├── css/
-    │   └── style.css
+    │   ├── style.css
+    |   ├── responsestyle.css
     │
     ├── js/
     │   └── app.js
@@ -240,7 +241,8 @@ user-management-dashboard/
 │
 └── src/
     ├── css/
-    │   └── style.css
+    │   ├── style.css
+    |   ├── responsestyle.css
     │
     ├── js/
     │   └── app.js
