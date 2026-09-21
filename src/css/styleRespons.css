@@ -1,0 +1,20 @@
+@media (max-width: 365px) {
+  .header-butm {
+    display: block;
+  }
+}
+
+@media (max-width: 560px) {
+  .articleTemplate {
+    display: block;
+  }
+  .user-template {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  
+  .user-template {
+    font-size: 15px;
+  }
+}
